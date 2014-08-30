@@ -1,7 +1,7 @@
 hubot-killmei
 ====
 
-Receive [killmebaby 686 icons](http://killmebaby.tv/special_icon.html).
+Receive [Kill Me Baby 686 icons](http://killmebaby.tv/special_icon.html).
 
 Installation
 ----
