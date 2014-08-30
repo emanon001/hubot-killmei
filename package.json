@@ -1,0 +1,33 @@
+{
+  "name": "hubot-killmei",
+  "version": "0.0.0",
+  "description": "Killmei is the most important thing in life",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/emanon001/hubot-killmei.git"
+  },
+  "keywords": [
+    "hubot"
+  ],
+  "author": {
+    "name": "emanon001",
+    "mail": "emanon001@gmail.com",
+    "url": "http://blog.emanon001.net"
+  },
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/emanon001/hubot-killmei/issues"
+  },
+  "homepage": "https://github.com/emanon001/hubot-killmei",
+  "dependencies": {
+    "request": "^2.37.0",
+    "cheerio": "^0.17.0",
+    "q": "^1.0.1"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.7.1"
+  }
+}
