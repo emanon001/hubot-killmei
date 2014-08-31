@@ -22,7 +22,7 @@ cheerio = require 'cheerio'
 q = require 'q'
 
 module.exports = (robot) ->
-  getKillmeIconUrls = (->
+  getIconUrls = (->
     iconUrlCache = null
     ->
       deferred = q.defer()
@@ -65,7 +65,7 @@ module.exports = (robot) ->
     bomb = msg.match[1]?
     count = if bomb then msg.match[3] || 5 else 1
 
-    getKillmeIconUrls()
+    getIconUrls()
     .then (iconUrls) ->
       choiceN(iconUrls, count).forEach (url) ->
         msg.send url
