@@ -59,7 +59,7 @@ module.exports = (robot) ->
 
   robot.respond /killmei(\s+bomb(\s+(\d+))?)?/i, (msg) ->
     bomb = msg.match[1]?
-    count = if bomb then msg.match[3] || 5 else 1
+    count = if bomb then parseInt(msg.match[3], 10) || 5 else 1
 
     getIconUrls()
     .then (iconUrls) ->
