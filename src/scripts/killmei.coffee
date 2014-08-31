@@ -10,8 +10,8 @@
 #   None
 #
 # Commands:
-#   hubot killmei         - Receive a killme icon
-#   hubot killmei bomb N  - get N killme icons
+#   hubot killmei          - receive a killme icon
+#   hubot killmei bomb <N> - get N killme icons
 #
 # Author:
 #   emanon001 <emanon001@gmail.com>
