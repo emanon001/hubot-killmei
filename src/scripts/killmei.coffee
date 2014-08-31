@@ -48,15 +48,11 @@ module.exports = (robot) ->
   random = (max) ->
     Math.floor Math.random() * (max + 1)
 
-  choice = (coll, i) ->
-    i = i || random coll.length - 1
-    coll[i]
-
   choiceN = (coll, n) ->
     coll = [].concat coll
     [1..n].reduce (acc) ->
       i = random coll.length - 1
-      acc.push choice coll, i
+      acc.push coll[i]
       coll.splice i, 1
       acc
     , []
